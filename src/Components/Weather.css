@@ -1,0 +1,156 @@
+.weather {
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 7rem;
+}
+
+.text {
+    position:relative;
+    top: 10px;
+    border-radius: 50px;
+    border-style:none;
+    height: 2rem;
+    width: 50vw;
+    background-color:#2874A6;
+    color:white;
+}
+
+.city_name {
+    position:absolute;
+    top: 7px;
+    left: 3rem;
+    font-size: 5rem;
+}
+
+.city_temp {
+    position: absolute;
+    top: 10rem;
+    left: 3.2rem;
+    font-size: 5rem;
+}
+
+.city_feel {
+    position:absolute;
+    top:16rem;
+    left:16rem;
+    font-size: 2rem;
+}
+
+.hori {
+    position:absolute;
+    top: 23rem;
+    left:0;
+    width: 50rem;
+    border:none;
+    border-top: 1px solid red;
+
+}
+
+.max_temp {
+    position:absolute;
+    top: 26rem;
+    left: 3.7rem;
+    font-size: 2em;
+    
+}
+
+.max_text {
+    position: absolute;
+    top: 24rem;
+    left: 3rem;
+}
+
+.min_text {
+    position: absolute;
+    top: 32rem;
+    left: 3rem;
+}
+
+.min_temp {
+    position:absolute;
+    font-size: 2em;
+    top: 33rem;
+    left: 3.7rem;
+}
+
+.humid {
+   position: relative;
+   font-size: 35px;
+   left: 30rem;
+   top: 0.44em;
+}
+
+.humid_data {
+    position:relative;
+    left: 30rem;
+    font-size: 2em;
+    top: 0.1rem;
+}
+
+.wind{
+    position:relative;
+    font-size: 30px;
+    left: 30rem;
+    top: 0.4em;
+}
+
+.wind_info {
+    position: relative;
+    top:0;
+    left: 30rem;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.pressure {
+    position: absolute;
+    top: 1.4em;
+    font-size: 35px;
+    left: 75rem;
+}
+
+.pressure_info {
+    position:absolute;
+    left: 75rem;
+    font-size: 2em;
+    top: 7rem;
+}
+
+@media only screen  and (max-width: 590px){
+   .humid {
+       position: absolute;
+       left: 3rem;
+       top: 38rem;
+   }
+
+   .humid_data {
+       position:absolute;
+       left:6rem;
+       top: 41.5rem;
+   }
+
+   .wind {
+       position: absolute;
+       left:3rem;
+       top: 47rem;
+   }
+
+   .wind_info {
+       position: absolute;
+       left: 3rem;
+       top: 51.5rem;
+   }
+
+   .pressure {
+       position: absolute;
+       left: 3rem;
+       top: 55.6rem;
+   }
+
+   .pressure_info {
+       position: absolute;
+       left:3rem;
+       top: 59rem;
+   }
+}
